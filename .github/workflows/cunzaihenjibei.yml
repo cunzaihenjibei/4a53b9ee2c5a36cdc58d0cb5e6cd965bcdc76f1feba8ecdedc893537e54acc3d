@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '53 3/6 * * *'
 
-jobs:  # 26880
+jobs:  # 24
   build:
     runs-on: ubuntu-latest
     steps:
